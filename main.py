@@ -22,8 +22,13 @@ def after_request(response):
 def index():
     pass
 
+@app.route("/3d")
+def ddd():
+    pass
 
-
+@app.route("/presintaion")
+def presintaion():
+    pass
 
 
 @app.route("/results")
